@@ -38,7 +38,6 @@ public class SoulForges {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        // Some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
