@@ -5,10 +5,11 @@ plugins {
 
 
 group = 'org.xerocry'
-version = '1.0-SNAPSHOT'
+version = '0.0.1-1.18.2'
+archivesBaseName = 'soulforges'
 
 java {
-    archivesBaseName = 'SoulForges'
+
     toolchain.languageVersion = JavaLanguageVersion.of(17)
 }
 
@@ -50,7 +51,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
                         // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'SoulForges'
+            property 'forge.enabledGameTestNamespaces', 'soulforges'
             
             mods {
                 soulforges {
@@ -66,7 +67,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-                        property 'forge.enabledGameTestNamespaces', 'SoulForges'
+                        property 'forge.enabledGameTestNamespaces', 'soulforges'
             
             mods {
                 soulforges {
@@ -85,7 +86,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'SoulForges'
+            property 'forge.enabledGameTestNamespaces', 'soulforges'
 
             mods {
                 soulforges {
